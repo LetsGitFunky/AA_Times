@@ -6,15 +6,17 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
+	// top: 5px;
+	border-top: 1px solid $light-gray
 }
 
 .language-nav {
 	position: absolute;
 	top: -15px;
-	left: calc(50% - (177.78px/2));
+	// left: calc(50% - (177.78px/2));
 	background: white;
 	border: 1px solid $light-gray;
-	border-bottom: none;
+	border-bottom: none ;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 
@@ -34,17 +36,21 @@
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
+	margin-bottom: 3px;
 }
 
 .masthead-links {
 	display: flex;
 	font-family: $sans-serif;
 	font-size: 11px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	// margin-top: 3px;
+	margin-bottom: 3px;
+	align-items: center;
+
 
 	li {
 		margin-left: 10px;
+		padding-right: 10px;
 		border-right: 1px solid $light-gray;
 	}
 
@@ -61,7 +67,7 @@
 	}
 
 	a,
-	button, 
+	button,
 	time {
 		margin-right: 10px;
 	}
